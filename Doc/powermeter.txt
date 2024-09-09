@@ -1,0 +1,20 @@
+INA219 
+VIN(-)  -> LED 긴선 
+저항 
+태양패널 (+) -> VIN(+)
+태양패널 (-) -> 저항 
+
+LED 불 켜짐
+
+(INA219)
+VCC -> 아두이노 5V
+GND -> GND 
+SCL -> 아두이노 SCL
+SDA -> 아두이노 SDA 
+
+VCC -> VCC
+GND -> GND
+SCL -> SCL
+SDA -> SDA 
+
+태양패널 (-) -> 아두이노 GND 
